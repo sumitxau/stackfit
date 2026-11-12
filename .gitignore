@@ -1,0 +1,4 @@
+*.exe
+stackfit
+.env
+profile.local.json
