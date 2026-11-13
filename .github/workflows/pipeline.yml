@@ -15,6 +15,7 @@ permissions:
 jobs:
   poll-and-notify:
     runs-on: ubuntu-latest
+    environment: DISCORD_WEBHOOK
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
